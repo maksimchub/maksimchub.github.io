@@ -1,0 +1,138 @@
+@import "bourbon"
+
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px)
+	.top-email
+		font-size: 13px
+	.slider
+		.slide
+			h2
+				font-size: em(34px)
+			p
+				font-size: em(14px)
+
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px)
+	.slider
+		.slide
+			padding-top: 140px
+		.slide-content
+			padding-top: 40px
+	.top-pannel
+		padding: 15px 0 20px
+	.logo
+		img
+			width: 100px
+			margin-top: 6px
+	.top-button
+		margin-top: 8px
+	.slider-wrap
+		.slider-nav
+			div
+				top: 240px
+	.top-line
+		.sf-menu
+			display: none!important
+
+.sect-universal
+	h2
+		float: left
+		margin-top: 20
+		margin-bottom: 20px
+		margin-right: 20px
+	.first-col
+		.button
+			float: left
+			margin-bottom: 30px
+
+.developer
+	margin-top: 20px
+
+
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px)
+
+	.main-foot
+		.text-right
+			text-align: left
+
+	.sect-services
+		.col-md-3
+			padding: 0 15px
+
+	/*Disable Animation on Mobile Devices*/
+	.animated
+		/*CSS transitions*/
+		-o-transition-property: none !important
+		-moz-transition-property: none !important
+		-ms-transition-property: none !important
+		-webkit-transition-property: none !important
+		transition-property: none !important
+		/*CSS transforms*/
+		-o-transform: none !important
+		-moz-transform: none !important
+		-ms-transform: none !important
+		-webkit-transform: none !important
+		transform: none !important
+		/*CSS animations*/
+		-webkit-animation: none !important
+		-moz-animation: none !important
+		-o-animation: none !important
+		-ms-animation: none !important
+		animation: none !important
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px)
+	.logo
+		img
+			width: 105px
+			max-width: 105px
+	.slider
+		.slide
+			padding-top: 120px
+		.slide-content
+			padding-top: 50px
+	.slider-wrap
+		.slider-nav
+			div
+				top: 150px
+	.slider
+		.slide-content
+			padding-top: 20px
+
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px)
+	/**/
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px)
+	/**/
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px)
+	/**/
+
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px)
+	/**/
+
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px)
+	/**/
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px)
+	/**/
