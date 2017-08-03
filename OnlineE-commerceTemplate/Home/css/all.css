@@ -1,0 +1,555 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  text-decoration: none;
+}
+
+@font-face {
+  font-family: Segoe;
+  src: url(../fonts/Segoe.ttf);
+}
+
+body {
+  font-family: Segoe,Helvetica,Arial,sans-serif !important;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #333;
+  background-color: #fff;
+}
+
+ol, ul {
+  list-style: none !important ;
+  margin: 0;
+  padding: 0;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.top-header {
+  background: url(../img/bg-top-header.png) repeat 0 0;
+}
+
+.wrapper {
+  max-width: 1024px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.nav ul {
+  float: right;
+  margin: 0;
+}
+
+.nav li {
+  display: inline-block;
+}
+
+.nav a {
+  display: block;
+  color: #fafbfb;
+  font-size: 16px;
+  padding: 5px 25px 5px 0;
+  font-family: Segoe;
+  text-decoration: none;
+}
+
+.nav a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+  color: #dddddd;
+}
+
+.bottom-header {
+  background: url(../img/bg-bottom-header.gif) repeat 0 0;
+  padding-bottom: 10px;
+}
+
+.logo, .search, .basket, .wish-list,
+.left-col, .right-col,
+.biography, .professional, .earth-sciences, .mathematics {
+  display: inline-block;
+  width: 180px;
+  margin-top: 20px;
+  vertical-align: top;
+}
+
+.search {
+  width: 430px;
+  margin-top: 30px;
+}
+
+.basket {
+  width: 205px;
+  margin-left: 70px;
+  border-right: 1px dotted #000;
+  padding-right: 20px;
+}
+
+.wish-list {
+  display: inline-block;
+  width: 120px;
+}
+
+form {
+  background: #fff;
+  border: 4px solid #79b260;
+  border-radius: 2px;
+}
+
+input[type="text"] {
+  width: 300px;
+  outline: none;
+}
+
+input, button {
+  border: none;
+}
+
+.va-bottom {
+  vertical-align: bottom;
+}
+
+button[type="button"] {
+  width: 118px;
+  outline: none;
+  background: #79b260;
+  cursor: pointer;
+}
+
+button[type="button2"] {
+  width: 80px;
+  height: 27px;
+  border: 1px solid #000;
+  border-radius: 4px;
+  color: #fafbfb;
+  outline: none;
+  background: #404040;
+  cursor: pointer;
+  vertical-align: top;
+  margin-top: 3px;
+}
+
+.ta-center {
+  text-align: center;
+  color: #fafbfb;
+  font-size: 23px;
+}
+
+.main-basket a{
+  text-decoration: none;
+  color: #6d6d6d;
+  font-size: 23px;
+  vertical-align: top;
+  margin-left: 5px;
+
+}
+
+.fs13 {
+  display: inline-block;
+  font-size: 13px;
+  color: #6d6d6d;
+  vertical-align: top;
+  margin-top: 10px;
+  margin-left: 3px;
+}
+
+.money  {
+  display: inline-block;
+  font-size: 23px;
+  color: #6d6d6d;
+  margin: 5px 25px 0 0;
+  font-weight: bold;
+}
+
+.mt10 {
+  margin-top: 10px;
+}
+
+.mt10 img {
+  display: block;
+  margin-left: 30px;
+}
+
+.mt10 a {
+  display: block;
+  font-size: 21px;
+  color: #6d6d6d;
+  cursor: pointer;
+  text-decoration: none;
+  margin: 5px;
+}
+
+nav {
+  border-top: 1px solid #cecece;
+  border-bottom: 1px solid #dedede;
+  margin-bottom: 15px;
+}
+
+.menu {
+  display: table;
+  width: 100%;
+  margin: 0;
+}
+
+.menu li {
+  display: table-cell;
+}
+
+.menu li a {
+    font-family: Segoe;
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align:center;
+    line-height: 50px;
+    text-decoration: none;
+    color: #5b5b5b;
+    font-size: 19px;
+
+}
+
+.active {
+  background: #88c86c;
+}
+
+.menu li a:hover {
+  background: #88c86c;
+}
+
+.slider, .sale {
+  display: inline-block;
+  width: 715px;
+}
+
+.position-ab {
+  position: absolute;
+  top: 130px;
+  left: 35px;
+}
+
+.sale {
+  vertical-align: top;
+  width: 270px;
+  margin-left: 20px;
+}
+
+.sale-block {
+  background: url(../img/bg-sale-block.png) no-repeat 0 0;
+}
+
+.sale-block h3 {
+  font-size: 27px;
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+  margin: 0;
+  padding: 10px 0 5px 0;
+}
+
+.sale-block h4 {
+  font-size: 15px;
+  color: #fafbfb;
+  text-align: center;
+  margin: 0;
+  padding-bottom: 10px;
+}
+
+.sale-block img {
+  margin-left: 45px;
+}
+
+.save {
+  font-size: 21px;
+  color: #fafbfb;
+  text-align: center;
+  margin: 0;
+}
+
+.price {
+  font-size: 29px;
+  font-weight: bold;
+  color: #fafbfb;
+  text-align: center;
+  margin: 0;
+}
+
+button[type="button3"] {
+  color: #fafbfb;
+  font-size: 19px;
+  font-weight: bold;
+  outline: none;
+  background: #79b260;
+  cursor: pointer;
+  padding: 5px 15px;
+  border-radius: 3px;
+  margin-left: 80px;
+}
+
+.left-col {
+  width: 190px;
+  border: 1px solid #d6d6d6;
+  border-radius: 1px;
+  margin-right: 15px;
+  margin-bottom: 20px;
+}
+
+.right-col {
+  width: 800px;
+}
+
+.left-col>a{
+  text-decoration: none;
+}
+
+.left-col h4 {
+  color: #6b6969;
+  font-weight: bold;
+  font-size: 17px;
+  margin-left: 15px;
+  margin: 0;
+  padding: 10px 0 10px 20px;
+  margin-bottom: 3px;
+}
+
+.categories-block a:hover {
+  background: #83c168;
+  text-decoration: none;
+}
+
+.categories-block h4:hover {
+  background: #83c168;
+  text-decoration: none;
+}
+
+.left-col ul {
+  margin-left: 25px;
+}
+
+.mb30 {
+  margin-bottom: 85px;
+}
+
+.fs15 li a {
+  font-size: 15px;
+  color: #6b6969;
+  margin: 0;
+}
+
+.fs15 li {
+  width: 135px;
+  border-bottom: 1px solid #e6e7e8;
+}
+
+.active2 {
+  background: #83c168;
+}
+
+.categories-block h2 {
+  font-size: 24px;
+  color: #6b6969;
+  margin-left: 10px;
+  margin: 0;
+  padding: 18px 0 13px 18px;
+}
+
+.menu1 ul {
+  display: inline-flex;
+  margin-bottom: 0;
+}
+
+.menu1 li {
+  display: inline-block;
+  border: 1px solid #d8dce0;
+}
+
+
+.menu1 li.active-block {
+  border-bottom: none;
+}
+
+.menu1 a {
+  display: block;
+  color: #6b6969;
+  font-size: 17px;
+  font-family: Helvetica;
+  background: #ebebeb;
+  padding: 10px;
+}
+
+.active-block a {
+  background: #fff;
+  color: #464646;
+  font-size: 18px;
+  text-align: center;
+}
+
+.menu1 a:hover {
+  color: #6b6969;
+  text-decoration: none;
+  background: #fff;
+  color: #464646;
+}
+
+
+.content {
+  border: 1px solid #d8dce0;
+  margin-top: -1px;
+}
+
+.book-content a:hover {
+  text-decoration: none;
+}
+
+.book-content li {
+  display: inline-block;
+  margin: 22px 20px 0 29px;
+}
+
+.book-content img {
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  border: 4px solid #fff;
+  border-radius: 4px;
+}
+
+.book-content img:hover {
+  box-shadow: 0 0 10px rgba(0,0,0,1);
+  border: 4px solid #fff;
+  border-radius: 4px;
+}
+
+.book-content p.red {
+  color: #f05356;
+  font-size: 22px;
+}
+
+.book-content p {
+  text-align: center;
+  font-size: 15px;
+  color: #595959;
+  margin: 0;
+}
+
+.pages ul {
+  text-align: right;
+  margin-right: 30px;
+  margin-bottom: 0;
+}
+
+.pages ul li {
+  display: inline-block;
+}
+
+.pages a {
+  text-align: center;
+  display: block;
+  color: #646464;
+  font-size: 15px;
+  height: 40px;
+  padding: 7px;
+  border: 1px solid transparent;
+  width: 30px;
+}
+
+.pages a:hover {
+  text-decoration: none;
+  outline: 1px solid #e0e0e0;
+  border-bottom: 4px solid #81bd66;
+  font-size: 15px;
+}
+
+.biography {
+  width: 250px;
+}
+
+.professional {
+  width: 310px;
+}
+
+.earth-sciences {
+  width: 240px;
+}
+
+.mathematics {
+  width: 210px;
+}
+
+.footer {
+  background: url(../img/bg-top-footer.png) no-repeat 0 0;
+  background-size: 100%;
+}
+
+.top-footer h4 {
+  font-size: 19px;
+  color: #cdcdcd;
+}
+
+.top-footer {
+  margin-bottom: 20px;
+}
+
+.top-footer a {
+  color: #828481;
+  font-size: 13px;
+  border-bottom: 1px solid #515650;
+}
+
+.top-footer a:hover {
+  text-decoration: none;
+  color: #fff;
+}
+
+.bottom-footer {
+  background: url(../img/bg-bottom-footer.png) no-repeat 0 0;
+  background-size: 100%
+}
+
+.credit-card h4 {
+  text-align: center;
+  color: #ddd;
+  font-size: 20px;
+}
+
+.credit-card ul {
+  margin-left: 43%;
+  margin-right: 43%;
+}
+
+.credit-card li {
+  display: inline-block;
+}
+
+.credit-card a {
+  display: block;
+  text-align: center;
+}
+
+.bootom-footer ul {
+  margin-bottom: 0;
+  padding-bottom: 10px;
+}
+
+.credit-card p {
+  text-align: center;
+  font-size: 15px;
+  color: #dddddd;
+  margin-bottom: 0;
+}

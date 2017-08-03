@@ -1,0 +1,286 @@
+@font-face {
+  font-family: ballpark;
+  src: url(../fonts/ballpark.ttf);
+}
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+body {
+  text-decoration: none;
+  font-size: 12px;
+  line-height: 1.5;
+  color: #fff;
+}
+
+ ul {
+  list-style: none;
+}
+
+.top-block {
+  background: url(../img/bg-top-block.gif) repeat 0 0;
+  border-bottom: 4px solid #242424;
+  padding-bottom: 85px;
+}
+
+header {
+  padding-top: 24px;
+  padding-bottom: 15px;
+}
+
+.logo {
+  color: #e0e0e0;
+  font-size: 36px;
+  font-family: ballpark;
+}
+
+.logo:hover {
+  color: #e0e0e0;
+}
+
+nav a {
+  color: #e8e8e8;
+  font-weight: bold;
+  padding: 12px 14px;
+  display: block;
+}
+
+nav a:hover {
+  color: #e8e8e8
+}
+
+nav .list-inline>li {
+  padding-right: 24px;
+  background: url(../img/bg-nav-li.png) no-repeat 100% 50%;
+}
+
+nav li.active a, nav a:hover {
+  background: linear-gradient(to bottom, #282828, #2e2e2e);
+  border-radius: 6px;
+}
+
+form {
+  background: #2f2f2f;
+  border-top: 1px solid #262626;
+  border-radius: 25px;
+  padding: 8px 0;
+}
+
+input[type="text"] {
+  width: 75%;
+  outline: none;
+}
+
+input, button {
+  background: transparent;
+  border: none;
+}
+
+.margin-bottom {
+  margin-bottom: 30px;
+}
+.row {
+  margin-left: 15px;
+}
+
+button[type="button"] {
+  outline: none;
+}
+
+.middle-button {
+  font-weight: bold;
+  font-size: 13px;
+  color: #fff;
+  text-transform: capitalize;
+  background: #959595;
+  border: none;
+  padding: 11px 25px;
+}
+
+.middle-button:hover {
+  background: #959595;
+}
+
+.carousel-inner {
+  margin-left: 90px;
+}
+
+.carousel-indicators {
+  position: absolute;
+  text-align: right;
+  margin: 0;
+  left: 54%;
+  bottom: -15px;
+}
+
+.carousel-indicators li, .carousel-indicators .active {
+  height: 5px;
+  width: 23px;
+  border: none;
+  background: #888;
+  border-radius: 0;
+  margin: 0;
+}
+
+.carousel-indicators .active {
+  background: #bebebe;
+}
+
+.pb30 {
+  padding-bottom: 30px;
+}
+
+.middle-white-block {
+  background: #fff;
+  color: #333;
+  padding-bottom: 49px;
+}
+
+.flex-block {
+  display: flex;
+  margin-left: 30px;
+}
+
+.flex-block
+
+.flex-item {
+  padding: 25px;
+  margin-top: -65px;
+  background: #fff;
+  margin-right: 20px;
+}
+
+.flex-item h4 {
+  color: #171717;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.grey {
+  color: #8e8e8e;
+}
+
+.read-more {
+  display: block;
+  color: #333;
+  font-size: 12px;
+  text-transform: capitalize;
+  font-weight: bold;
+  margin-top: 35px;
+  padding-top: 17px;
+  padding-bottom: 17px;
+  background: url(../img/divider.png) repeat-x 0 0;
+}
+
+.read-more:hover {
+  background: url(../img/diveder-bot.gif) repeat-x 0 100% #888;
+  color: #fff;
+  transition: 1.5s all;
+}
+
+.w100 {
+  width: 100%;
+}
+
+.ml25 {
+  margin-left: 25px;
+}
+
+.ml55 {
+  margin-left: 23px;
+}
+
+.title-recent  {
+  margin-left: 55px;
+  padding-bottom: 19px;
+  margin-bottom: 30px;
+  background: url(../img/divider.png) repeat-x 0 100%;
+}
+
+.recent {
+  position: relative;
+  display: block;
+}
+
+.recent:hover .info {
+ display: block!important;
+ position: absolute;
+ top: 0;
+ left: 0;
+ width: 100%;
+ height: 100%;
+ background:url(../img/magnifying-glass.png) no-repeat 50% 40%, rgba(0, 0, 0,0.75);
+}
+
+.info li {
+  display: inline-block;
+  margin-right: 35px;
+  color: #fff;
+}
+
+.info li:last-child {
+  margin-right: 0;
+}
+
+.info ul {
+  position: absolute;
+  bottom: 10px;
+}
+
+.mb20 {
+  margin-bottom: 20px;
+}
+
+.top-footer {
+  background: url(../img/bg-top-block.gif) repeat 0 0;
+  border-top: 4px solid #242424;
+  padding: 40px 0 30px 0;
+}
+
+.footer-title {
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: capitalize;
+  color: #fff;
+  padding-bottom: 21px;
+  border-bottom: 1px solid #707070;
+  margin-bottom: 25px;
+}
+
+.widget-block {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.bottom-footer {
+  background: url(../img/bg-footer-bt.png) repeat 0 0;
+  padding: 25px 0;
+}
+
+.bottom-footer a {
+  color: #808080;
+  line-height: 1;
+}
+
+.bottom-footer a:hover {
+  color: #fff;
+}
+
+.bottom-footer a.logo:hover {
+  color: #808080;
+}
+
+.bottom-footer p {
+  color: #818181;
+  font-size: 12px;
+  line-height: 1;
+}
+
+.color-b2b2b2 {
+  color: #b2b2b2;
+}
